@@ -5,7 +5,6 @@ This project is a **content-based movie recommender system** that suggests simil
 ---
 
 ## 📌 Table of Contents
-
 - Project Overview
 - Features
 - Tech Stack
@@ -19,7 +18,7 @@ This project is a **content-based movie recommender system** that suggests simil
 
 The goal of this project is to recommend movies similar to a user-selected movie by analyzing textual features.
 
-We convert movie text data into numerical vectors using **TF-IDF (Term Frequency–Inverse Document Frequency)** and compute similarity using **cosine similarity** to find the most relevant recommendations.
+We convert movie text data into numerical vectors using **TF-IDF (Term Frequency–Inverse Document Frequency)** and compute similarity using **cosine similarity**.
 
 ---
 
@@ -43,90 +42,46 @@ We convert movie text data into numerical vectors using **TF-IDF (Term Frequency
 
 ---
 
-## 🚀 Local Setup
+## 📥 Local Setup
 
 ### 1. Clone the repository
-
-````bash
-
-git clone https://github.com/ikbalhussa1n/Movie-Recommender-System.git
-
-cd Movie-Recommender-System
-
-2.  **Create a Virtual Environment (Optional but Recommended)**:
 
 ```bash
-
-python -m venv venv
-
-venv\Scripts\activate   # Windows
-
-source venv/bin/activate  # Mac/Linux
-
-## ⚙️ Tech Stack
-
-- Python
-- Pandas
-- Scikit-learn
-- NLTK
-- Streamlit
-
----
-
-
-🌐 Deployment
-
-Live App:
-
-<a href="https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀%20Live%20App-Click%20Here-brightgreen?style=for-the-badge" />
-</a>
-
-
-## Usage
-To run the Streamlit application locally:
-
-### 1. Clone the repository
-
 git clone https://github.com/ikbalhussa1n/Movie-Recommender-System.git
 cd Movie-Recommender-System
+```
 
-### 2. Create Virtual Environment
+### 2. Create virtual environment
 
+```bash
 python -m venv venv
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # Mac/Linux
+```
 
-Windows:
-venv\Scripts\activate
+### 3. Install dependencies
 
-Mac/Linux:
-source venv/bin/activate
-
-### 3. Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
-### 4. Required Files
-
-- main.py
-- df_new.pkl
-- vectorizer.pkl
-
-### 5. Run App
-
-streamlit run main.py
+```
 
 ---
 
 ## 🌐 Deployment
 
-Live App:
-https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/
+<a href="https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/" target="_blank">
+  <img src="https://img.shields.io/badge/🚀%20Live%20App-Click%20Here-brightgreen?style=for-the-badge" />
+</a>
 
 ---
 
-## 🎮 Usage
+## 🚀 Usage
 
-1. Run Streamlit app
-2. Enter movie name
+```bash
+streamlit run main.py
+```
+
+Steps:
+1. Run Streamlit app  
+2. Enter movie name  
 3. Get recommendations
-````
