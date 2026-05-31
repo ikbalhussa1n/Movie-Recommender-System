@@ -1,10 +1,9 @@
-# 🎬 Movie Recommendation System
-
 This project is a **content-based movie recommender system** that suggests similar movies based on textual features such as overviews, genres, and taglines using **TF-IDF vectorization** and **cosine similarity**.
 
 ---
 
 ## 📌 Table of Contents
+
 - Project Overview
 - Features
 - Tech Stack
@@ -82,6 +81,7 @@ streamlit run main.py
 ```
 
 Steps:
-1. Run Streamlit app  
-2. Enter movie name  
+
+1. Run Streamlit app
+2. Enter movie name
 3. Get recommendations
