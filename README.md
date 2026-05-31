@@ -74,13 +74,10 @@ source venv/bin/activate  # Mac/Linux
 ---
 
 
-🌐 Deployment
+## 🌐 Deployment
 
 Live App:
-
-<a href="https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀%20Live%20App-Click%20Here-brightgreen?style=for-the-badge" />
-</a>
+https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/
 
 
 ## Usage
@@ -115,18 +112,8 @@ pip install -r requirements.txt
 
 streamlit run main.py
 
----
-
-## 🌐 Deployment
-
-Live App:
-https://movie-recommender-system-a7ak3yskk5bwumeqynbzhg.streamlit.app/
-
----
-
-## 🎮 Usage
 
 1. Run Streamlit app
 2. Enter movie name
 3. Get recommendations
-````
+
