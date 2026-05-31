@@ -1,3 +1,5 @@
+# 🎬 Movie Recommendation System
+
 This project is a **content-based movie recommender system** that suggests similar movies based on textual features such as overviews, genres, and taglines using **TF-IDF vectorization** and **cosine similarity**.
 
 ---
